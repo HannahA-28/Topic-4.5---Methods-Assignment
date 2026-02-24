@@ -5,10 +5,20 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, pick which image you want to see!");
+            Console.WriteLine("1 is a car, 2 is a dog, and 3 is mountains");
             Console.ReadLine();
+            if 1 = Car()
+            2 = Dog();
+            3 = Moutains();
+
             Car();
+
             Dog();
+
             Moutains();
+
+
+            Joke();
         }
 
         public static void Car()
@@ -35,9 +45,21 @@
             Console.WriteLine("       /      \\ /**\\");
             Console.WriteLine("      /  /\\    /    \\     ");
             Console.WriteLine("     /  /  \\  /      \\    ");
-            Console.WriteLine("    /  /    \\/ /\\    \\   ");
-            Console.WriteLine("   /  /      \\/  \\/\\ \\  ");
-            Console.WriteLine("__/__/________/___/___\\_\\");
+            Console.WriteLine("    /  /    \\/ /\\     \\   ");
+            Console.WriteLine("   /  /      \\/  \\/\\   \\  ");
+            Console.WriteLine("  /__/_______/___/__\\___\\");
+        }
+
+
+        public static void Joke()
+        {
+            Console.WriteLine("Knock Knock");
+            Console.ReadLine();
+            Thread.Sleep(3000);
+            Console.WriteLine("Lettuce");
+            Console.ReadLine();
+            Thread.Sleep(3000);
+            Console.WriteLine("Lettuce in! It's cold out here!"); 
         }
     }
 }
