@@ -2,21 +2,19 @@
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
+            string choice;
             Console.WriteLine("Hello, pick which image you want to see!");
             Console.WriteLine("1 is a car, 2 is a dog, and 3 is mountains");
-            Console.ReadLine();
-            if 1 = Car()
-            2 = Dog();
-            3 = Moutains();
-
-            Car();
-
-            Dog();
-
-            Moutains();
-
+            choice = Console.ReadLine();
+            if (choice == "1")
+                Car();
+            else if (choice == "2")
+                Dog();
+            else if (choice == "3")
+                Mountains();
 
             Joke();
         }
@@ -37,7 +35,7 @@
             Console.WriteLine(" (_(_/-(_/");
         }
 
-        public static void Moutains()
+        public static void Mountains()
         {
             Console.WriteLine("          /\\");
             Console.WriteLine("         /**\\");
@@ -53,6 +51,7 @@
 
         public static void Joke()
         {
+            Console.WriteLine();
             Console.WriteLine("Knock Knock");
             Console.ReadLine();
             Thread.Sleep(3000);
